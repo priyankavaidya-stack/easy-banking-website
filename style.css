@@ -1,0 +1,157 @@
+body{
+	font-family: 'Public Sans', sans-serif;
+	text-align: left;
+	margin: 0 0;
+}
+
+.container-fluid{
+	padding-left: 10%;
+}
+#title1{
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.navbar{
+	padding: 1rem 0;
+}
+.navbar-brand
+{
+	font-family: 'Public Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding:0 10px;
+}
+.navbar-nav{	
+	padding-left: 20%;
+}
+.btn{
+	border-radius: 25px;
+	background-color: #32e0c4;
+	color:#000;
+}
+.btn:hover{
+	color:#fff;
+	background-color: green;
+}
+.section2{
+	background-color: #f7f7f7;
+	padding-bottom: 30px;
+
+}
+.section2-head{
+	text-align: left;
+	padding-top: 15%;
+}
+.heading2{
+	font-size: 3.7rem;
+}
+.para1{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    /*width: 80%;*/
+    padding:20px 0;
+}
+.image2{
+	position: absolute;
+	top: -70px;
+	left: 50px;
+	width: 90%;
+
+}
+.section3{
+	background-color: #f0f0f0;
+	padding: 10% 5% 10% 0;
+}
+.para3{
+	/*width: 60%;*/
+	font-family: 'Public Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+.features{
+	padding-bottom: 5%;
+}
+.feature-title{
+	line-height: 2.5;
+}
+.subpara3{
+    font-family: 'Public Sans', sans-serif; 
+}
+.section4{
+	background-color: #f7f7f7;
+}
+.subsection4{
+	margin:0 5% 0 10%;
+	padding: 5% 0;
+}
+.card{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+}
+.card:hover {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.image4{
+	background-size: cover;
+}
+.section5{
+	background-color: #142850;
+	color:white;
+}
+#sub-section5{
+	padding:30px 10%;
+}
+.icons{
+	color: #fff;
+	padding-top:20px;
+}
+.icon1{
+	padding-right: 10px;
+}
+.link1{
+	display: block;
+	text-decoration:none;
+	color: #fff;
+	padding-top: 10px;
+}
+#last-button{
+	margin-top: 20px;
+}
+@media (max-width: 1028px)
+{
+	.image2{
+		position: static;
+		padding-top: 50px;
+	}
+	body{
+		text-align: center;
+	}
+	.para1{
+		text-align: center;
+	}
+	.feature-box{
+		padding-top: 20px;
+	}
+	.heading2{
+		text-align: center;
+		font-size: 3rem;
+	}
+	.card{
+		margin:20px 20px;
+	}
+	.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+}
